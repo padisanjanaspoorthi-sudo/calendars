@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-Day Content Calendar Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>30-Day Content Calendar Generator</h1>
+        <p>Create content ideas for your next 30 days!</p>
+
+        <label>Select Audience:</label>
+        <select id="audience">
+            <option value="Brands">Brands</option>
+            <option value="Creators">Creators</option>
+            <option value="Students">Students</option>
+            <option value="Founders">Founders</option>
+        </select>
+
+        <label>Select Platform:</label>
+        <select id="platform">
+            <option>Instagram</option>
+            <option>LinkedIn</option>
+            <option>YouTube</option>
+        </select>
+
+        <label>Select Goal:</label>
+        <select id="goal">
+            <option>Grow Audience</option>
+            <option>Increase Engagement</option>
+            <option>Promote Products</option>
+        </select>
+
+        <button onclick="generateCalendar()">
+            Generate Calendar
+        </button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
